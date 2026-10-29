@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <!-- =========================================
+       META & PAGE SETTINGS
+  ========================================== -->
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="cofe.css">
+
+  <title>coffee site</title>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================
+     HOME / HERO SECTION
+========================================= -->
+
+<div id="part1">
+
+  <!-- NAVBAR -->
+
+  <div class="navbar">
+
+    <div>
+      <h1>Your Coffee</h1>
+    </div>
+
+    <!-- HAMBURGER MENU -->
+
+    <button id="menuBtn" aria-label="Open menu">
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+    </button>
+
+    <!-- NAVIGATION LINKS -->
+
+    <div class="links">
+
+      <a href="#part1">Home</a>
+      <a href="#part2">About</a>
+      <a href="#part3">Menu</a>
+      <a href="#part4">testimonials</a>
+      <a href="#part5">Gallery</a>
+      <a href="#part6">contact</a>
+
+    </div>
+
+  </div>
+
+
+  <!-- HERO CONTENT -->
+
+  <div class="section">
+
+    <div class="text">
+
+      <span id="content1">Best Coffee</span>
+
+      <br>
+      <br>
+      <br>
+
+      <span id="content2">
+        Make your day great with our <br>
+        special coffee!
+      </span>
+
+      <br>
+      <br>
+
+      <span id="content3">
+        Welcome to our coffee paradise,where every bean tells<br>
+        a story and every cup sparks joy
+      </span>
+
+      <br>
+      <br>
+
+      <button class="btn1">
+        <a style="text-decoration: none; color:white ;" href="#part6">
+          order now
+        </a>
+      </button>
+
+      <button class="btn2">
+        <a style="text-decoration: none; color:white ;" href="#part6">
+          contact us
+        </a>
+      </button>
+
+    </div>
+
+
+    <!-- HERO IMAGE -->
+
+    <div class="imge">
+
+      <img
+        class="opacity"
+        src="coffee.jpg"
+        alt="cup of coffee"
+      >
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================
+     ABOUT US SECTION
+========================================= -->
+
+<div class="scrolAnimation" id="part2">
+
+  <div class="flex">
+
+    <!-- ABOUT IMAGE -->
+
+    <div class="img2">
+
+      <img
+        id="scroll"
+        src="people.jpg"
+        alt="people laughing"
+      >
+
+    </div>
+
+
+    <!-- ABOUT CONTENT -->
+
+    <div class="content">
+
+      <div>
+
+        <span id="span">ABOUT US</span>
+
+        <br>
+        <br>
+        <br>
+
+        <span id="span2">
+          At coffee house in El Minya, Egypt, we pride ourselves on being a<br>
+          go-to destination for coffee lovers and conversation seekers alike<br>
+          we`re dedicated to providing an exceptional coffee experience in a<br>
+          cozy and inviting atmosphere, where guests can relax, unwind, and<br>
+          enjoy their time in comfort.
+        </span>
+
+
+        <!-- SOCIAL ICONS -->
+
+        <div class="icons">
+
+          <span>
+            <ion-icon
+              onclick="openFaceBook()"
+              name="logo-facebook">
+            </ion-icon>
+          </span>
+
+          <span>
+            <ion-icon
+              onclick="openInstgram()"
+              name="logo-instagram">
+            </ion-icon>
+          </span>
+
+          <span>
+            <ion-icon
+              onclick="openWhatsApp()"
+              name="logo-whatsapp">
+            </ion-icon>
+          </span>
+
+          <span>
+            <ion-icon name="logo-github"></ion-icon>
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================
+     MENU SECTION
+========================================= -->
+
+<div class="scrolAnimation" id="part3">
+
+  <br>
+
+  <p id="menu">
+    <span id="main">OUR MENU</span>
+  </p>
+
+
+  <div class="menu">
+
+
+    <!-- BURGER -->
+
+    <div class="imgs">
+
+      <img src="food2.jpg" alt="food">
+
+      <p style="color: white;">
+
+        <span class="food">Big Burger</span>
+
+        <br>
+        <br>
+
+        <span class="description">
+          Quick bites to satisfy your small<br>size hunger
+        </span>
+
+      </p>
+
+    </div>
+
+
+    <!-- SPECIAL COMBOS -->
+
+    <div class="imgs">
+
+      <img src="food1.jpg" alt="food">
+
+      <p style="color: white;">
+
+        <span class="food">special Combos</span>
+
+        <br>
+        <br>
+
+        <span class="description">
+          Your favorite eating combos with a <br>
+          drink of your choice
+        </span>
+
+      </p>
+
+    </div>
+
+
+    <!-- KEBAB -->
+
+    <div class="imgs">
+
+      <img src="food3.jpg" alt="food">
+
+      <p style="color: white;">
+
+        <span class="food">Yummy Kebab</span>
+
+        <br>
+        <br>
+
+        <span class="description">
+          A special dish for a special hunger <br>
+          made just for you
+        </span>
+
+      </p>
+
+    </div>
+
+
+    <!-- HEALTHY DESSERT -->
+
+    <div class="imgs">
+
+      <img src="food6.jpg" alt="food">
+
+      <p style="color: white;">
+
+        <span class="food">Healthy dessert</span>
+
+        <br>
+        <br>
+
+        <span class="description">
+          a healthy dessert tells you a story about <br>
+          relief and satisfaction
+        </span>
+
+      </p>
+
+    </div>
+
+
+    <!-- REFRESHMENT -->
+
+    <div class="imgs">
+
+      <img src="refeshment.jpg" alt="refreshment">
+
+      <p style="color: white;">
+
+        <span class="food">Refreshment</span>
+
+        <br>
+        <br>
+
+        <span class="description">
+          Fruit and icy refreshing drink to make you <br>
+          feel refreshed
+        </span>
+
+      </p>
+
+    </div>
+
+
+    <!-- COLD BEVERAGES -->
+
+    <div class="imgs">
+
+      <img src="cold.jpg" alt="cold">
+
+      <p style="color: white;">
+
+        <span class="food">Cold Beverages</span>
+
+        <br>
+        <br>
+
+        <span class="description">
+          creamy and frothy cold coffee to <br>
+          make you cool
+        </span>
+
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================
+     TESTIMONIALS SECTION
+========================================= -->
+
+<div class="scrolAnimation" id="part4">
+
+  <br>
+
+  <p id="TESTIMONIALS0">
+    <span id="TESTIMONIALS">TESTIMONIALS</span>
+  </p>
+
+
+  <div class="persons">
+
+
+    <!-- TESTIMONIAL 1 -->
+
+    <div>
+
+      <img
+        class="imgs-part4"
+        src="pearson1.jpg"
+        alt="Michael Brown"
+      >
+
+      <p class="comment">
+
+        <span style="font-size: 20px; font-weight: bolder;">
+          Michael Brown
+        </span>
+
+        <br>
+        <br>
+
+        <span style="letter-spacing: 1px;">
+          Fantastic mocha flavor. Fresh and <br>
+          aromatic, Quick shipping
+        </span>
+
+      </p>
+
+    </div>
+
+
+    <!-- TESTIMONIAL 2 -->
+
+    <div>
+
+      <img
+        class="imgs-part4"
+        src="pearson2.jpg"
+        alt="Anthony Thompson"
+      >
+
+      <p class="comment">
+
+        <span style="font-size: 20px; font-weight: bolder;">
+          Anthony Thompson
+        </span>
+
+        <br>
+        <br>
+
+        <span>
+          Best decaf I've tried! Smooth and<br> flavorful, arrived promptly
+        </span>
+
+      </p>
+
+    </div>
+
+
+    <!-- TESTIMONIAL 3 -->
+
+    <div>
+
+      <img
+        class="imgs-part4"
+        src="pearson3.jpg"
+        alt="Games Wilson"
+      >
+
+      <p class="comment">
+
+        <span style="font-size: 20px; font-weight: bolder;">
+          James Wilson
+        </span>
+
+        <br>
+        <br>
+
+        <span>
+          Great espresso smooth and bold flavor.<br>
+          fast shipping too
+        </span>
+
+      </p>
+
+    </div>
+
+
+    <!-- TESTIMONIAL 4 -->
+
+    <div>
+
+      <img
+        class="imgs-part4"
+        src="pearson4.jpg"
+        alt="Emily excellent"
+      >
+
+      <p class="comment">
+
+        <span style="font-size: 20px; font-weight: bolder;">
+          Emily excellent
+        </span>
+
+        <br>
+        <br>
+
+        <span>
+          quality! fresh beans and<br>
+          Quick delivery. Highly recommend
+        </span>
+
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================
+     GALLERY SECTION
+========================================= -->
+
+<div class="scrolAnimation" id="part5">
+
+  <br>
+
+  <p class="span11">
+    <span class="span011">Gallery</span>
+  </p>
+
+
+  <div class="gallery">
+
+    <img
+      class="margain"
+      src="gallary1.jpg"
+      alt="the coffee"
+    >
+
+    <img
+      class="margain"
+      src="gallary2.jpg"
+      alt="the coffee"
+    >
+
+    <img
+      class="margain"
+      src="gallary3.jpg"
+      alt="the coffee"
+    >
+
+    <img
+      class="margain"
+      src="gallary4.jpg"
+      alt="the coffee"
+    >
+
+    <img
+      class="margain"
+      src="gallary5.jpg"
+      alt="the coffee"
+    >
+
+    <img
+      class="margain"
+      src="gallary6.jpg"
+      alt="the coffee"
+    >
+
+  </div>
+
+</div>
+
+
+<!-- =========================================
+     CONTACT SECTION
+========================================= -->
+
+<div class="scrolAnimation" id="part6">
+
+  <p class="contact-us">
+    <span id="contact-us">CONTACT US</span>
+  </p>
+
+
+  <div id="section">
+
+
+    <!-- CONTACT INFORMATION -->
+
+    <div id="info">
+
+      <!-- LOCATION -->
+
+      <div class="display">
+
+        <span class="icons2">
+          <ion-icon name="location-outline"></ion-icon>
+        </span>
+
+        <p>
+          El Minya city, cornich street, next to the sports club
+        </p>
+
+      </div>
+
+      <br>
+
+
+      <!-- PHONE -->
+
+      <div class="display">
+
+        <span class="icons2">
+          <ion-icon name="call-outline"></ion-icon>
+        </span>
+
+        <p>
+          (+2) 01013464781
+        </p>
+
+      </div>
+
+      <br>
+
+
+      <!-- OPENING HOURS -->
+
+      <div class="display">
+
+        <span class="icons2">
+          <ion-icon name="time-outline"></ion-icon>
+        </span>
+
+        <p>
+          Saturday-Friday: 09:00 AM - 05:00 PM
+        </p>
+
+      </div>
+
+      <br>
+
+
+      <!-- THURSDAY -->
+
+      <div class="display">
+
+        <span class="icons2">
+          <ion-icon name="time-outline"></ion-icon>
+        </span>
+
+        <p>
+          thursday: 10:00 AM - 03:00 PM
+        </p>
+
+      </div>
+
+      <br>
+
+
+      <!-- FRIDAY -->
+
+      <div class="display">
+
+        <span class="icons2">
+          <ion-icon name="time-outline"></ion-icon>
+        </span>
+
+        <p>
+          friday: Closed
+        </p>
+
+      </div>
+
+      <br>
+
+
+      <!-- INSTAGRAM -->
+
+      <div class="display">
+
+        <span
+          style="cursor: pointer;"
+          class="icons2">
+
+          <ion-icon
+            onclick="openInstgram()"
+            name="logo-instagram">
+          </ion-icon>
+
+        </span>
+
+        <p
+          style="cursor: pointer;"
+          onclick="openInstgram()">
+
+          visit my instagram
+
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <!-- CONTACT FORM -->
+
+    <form id="contactForm">
+
+      <input
+        class="inputs"
+        type="text"
+        placeholder="your name"
+        id="name"
+        required
+      >
+
+      <br>
+
+      <input
+        class="inputs"
+        type="email"
+        placeholder="your email"
+        id="email"
+        required
+      >
+
+      <br>
+
+      <input
+        class="inputs"
+        type="tel"
+        placeholder="your phone number"
+        id="number"
+        required
+      >
+
+      <br>
+
+      <textarea
+        class="inputs"
+        placeholder="your message"
+        id="message"
+        required
+      ></textarea>
+
+      <br>
+
+      <input
+        class="submit"
+        type="submit"
+        value="submit"
+      >
+
+    </form>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================
+     FOOTER SECTION
+========================================= -->
+
+<div class="scrolAnimation" id="part7">
+
+
+  <!-- COPYRIGHT -->
+
+  <div id="date">
+    2026 Coffee Shop
+  </div>
+
+
+  <!-- SOCIAL ICONS -->
+
+  <div id="icons">
+
+    <span class="icons3">
+      <ion-icon
+        onclick="openFaceBook()"
+        name="logo-facebook">
+      </ion-icon>
+    </span>
+
+    <span class="icons3">
+      <ion-icon
+        onclick="openInstgram()"
+        name="logo-instagram">
+      </ion-icon>
+    </span>
+
+    <span class="icons3">
+      <ion-icon
+        onclick="openWhatsApp()"
+        name="logo-whatsapp">
+      </ion-icon>
+    </span>
+
+    <span class="icons3">
+      <ion-icon name="logo-github"></ion-icon>
+    </span>
+
+  </div>
+
+
+  <!-- POLICIES -->
+
+  <div id="policy">
+    Privacy policy . Refund policy
+  </div>
+
+</div>
+
+
+<!-- =========================================
+     IONICONS
+========================================= -->
+
+<script
+  type="module"
+  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+</script>
+
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+</script>
+
+
+<!-- =========================================
+     MAIN JAVASCRIPT
+========================================= -->
+
+<script src="coffe.js"></script>
+
+</body>
+
+</html>
