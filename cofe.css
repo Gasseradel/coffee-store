@@ -1092,3 +1092,22 @@ img {
 	}
 
 }
+
+@media (max-width: 393px){
+
+	.btn1 a,.btn2 a{
+		font-size: 12px;
+	}
+
+	.btn1, .btn2{
+		width: 105px;
+	}
+
+	.btn2{
+		margin-right: 10px;
+	}
+
+	#info{
+		font-size: 10px;
+	}
+}
